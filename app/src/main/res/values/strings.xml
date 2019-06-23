@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">App Shortcuts Sample</string>
     <string name="add_new_website">Add New Website</string>
+    <string name="add_new_website_deeplink">Add New Website (deeplink)</string>
     <string name="add_new_website_short">Add Website</string>
     <string name="existing_shortcuts">Existing shortcuts:</string>
     <string name="remove_shortcut">Remove</string>

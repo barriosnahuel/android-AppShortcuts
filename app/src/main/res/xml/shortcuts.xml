@@ -26,4 +26,14 @@
             android:targetClass="com.example.android.appshortcuts.Main"
             />
     </shortcut>
+    <shortcut
+        android:shortcutId="add_website_deeplink"
+        android:icon="@drawable/add"
+        android:shortcutShortLabel="@string/add_new_website_deeplink"
+        android:shortcutLongLabel="@string/add_new_website_deeplink">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="app://custom/deep-link"
+            android:targetPackage="this.package.does.not.exists" />
+    </shortcut>
 </shortcuts>
